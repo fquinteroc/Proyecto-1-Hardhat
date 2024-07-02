@@ -1,13 +1,30 @@
-# Sample Hardhat Project
+# 🚀 Proyecto de Despliegue de Token ERC-721 en Arbitrum Sepolia
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Este repositorio contiene el proyecto de despliegue de un contrato inteligente ERC-20 o ERC-721 (NFT) utilizando Hardhat en la red Arbitrum Sepolia.
 
-Try running some of the following tasks:
+## 📜 Contrato Desplegado
+- **Dirección del Contrato:** 0x1777d852a94b191D011BdBC976459f11e049A7Ed
+- **Ver en Arbiscan:** [Arbiscan](https://sepolia.arbiscan.io/address/0x1777d852a94b191D011BdBC976459f11e049A7Ed#code)
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## 🛠️ Configuración del Proyecto
+
+### 🔧 Requisitos Previos
+
+- Node.js
+- npm
+- Hardhat
+
+### 📝 Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/fquinteroc/Proyecto-1-Hardhat.git
+   cd Proyecto-1-Hardhat
+
+2. Instala las dependencias
+   ```bash
+   yarn install
+
+3. Ejecuta el proyecto
+   ```bash
+   yarn test
